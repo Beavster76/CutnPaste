@@ -1,0 +1,10 @@
+fastapi[all]==0.110.1
+uvicorn[standard]==0.25.0
+motor==3.3.1
+python-dotenv==1.1.1
+stripe==13.0.1
+bcrypt==5.0.0
+PyJWT==2.10.1
+pydantic==2.11.9
+python-multipart==0.0.20
+emergentintegrations
