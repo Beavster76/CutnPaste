@@ -5,7 +5,7 @@ app = FastAPI(title="CutnPaste")
 
 @app.get("/")
 async def root():
-    return {"message": "CutnPaste is working!"}
+    return {"message": "🎬 CutnPaste Video Editor - FULLY UPDATED!", "version": "2.0", "features": ["Video Editing", "Subscriptions", "Payments"]}
 
 @app.get("/api/health")
 async def health():
